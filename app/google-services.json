@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "741644708902",
+    "project_id": "projekttunv",
+    "storage_bucket": "projekttunv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741644708902:android:aa2044ff647ff1bec4cae7",
+        "android_client_info": {
+          "package_name": "si.uni_lj.fe.tnuv.projekttunv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741644708902-co7sostfbmc2rr4kmla7b2ompplbeqjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI_iWZSzyjeat8b_Fy2Mi9QIBDHPe1tFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741644708902-co7sostfbmc2rr4kmla7b2ompplbeqjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".Activity2">
+
+
+    <TextView
+        android:id="@+id/textV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/message_receiver"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/clickBtn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/clickBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_button"
+        android:text="@string/popup_menu"
+        android:textSize="22sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Pobriši stran"
+        android:layout_marginBottom="15dp"
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/callPatient"
+        android:background="@drawable/round_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/clearBtn"
+        android:text="Pokliči pacienta"
+        android:layout_marginBottom="5dp"
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/emailDoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toTopOf="@id/callPatient"
+        android:text="Obvesti osebnega zdravnika"
+        android:layout_marginBottom="5dp"
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/callAmbulance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        app:layout_constraintBottom_toTopOf="@id/emailDoc"
+        android:text="Naročanje rešilca"
+        android:layout_marginBottom="5dp"
+        android:visibility="invisible"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

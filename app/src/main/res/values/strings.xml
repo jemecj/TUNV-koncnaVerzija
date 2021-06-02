@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">projektTUNV</string>
+    <string name="login_form_password">Geslo</string>
+    <string name="login_form_username">Uporabniško ime</string>
+    <string name="login_form_login">PRIJAVA</string>
+    <string name="login_form_title">Prijavite se v sistem!</string>
+    <string name="message_receiver">Čakam na alarm...</string>
+    <string name="popup_menu">+</string>
+    <string name="navodila">Navodila ob primeru napada</string>
+    <string name="zgodovina">Zgodovina zadnjih napadov</string>
+    <string name="logout">Odjava</string>
+
+
+    <string name="contact_us">Contact Us</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="default_popup_menu">Default Popup Menu</string>
+    <string name="custom_popup_menu">Custom Popup Menu</string>
+    <string name="custom_styled_menu">Styled Popup Menu</string>
+    <string name="add_new_user">Dodajte novega uporabnika</string>
+    <string name="nov_uporabnik">Nov uporabnik</string>
+    <string name="new_user_name">Ime</string>
+    <string name="new_user_lastname">Priimek</string>
+    <string name="new_user_username">Novo uporabniško ime</string>
+    <string name="new_user_id">Uporabnikov ID</string>
+    <string name="new_user_pass1">Novo geslo</string>
+    <string name="new_user_pass2">Ponovite geslo</string>
+    <string name="o_profilu">O profilu</string>
+    <string name="instruction_title"><b>Navodila ob ravnanju z epileptičnim napadom</b></string>
+    <string name="instruction_text">Bolniku moramo preprečiti, da bi se pri padcu poškodoval (odstranimo vse nevarne predmete).\n\n
+Zrahljamo mu oblačila okrog vratu (odvežemo kravato, odpnemo srajčni ovratnik) in pasu (odpnemo pas na hlačah).\n\n
+Glavo mu podpremo z mehkim in ravnim predmetom (vzglavnikom, torbo, zvitim oblačilom).\n\n
+Po prenehanju napada moramo osebo, ki izgubi zavest, položiti v bočni položaj za nezavestnega.\n\n
+Bolniku v usta ne dajemo nobenih predmetov, s katerimi bi preprečili, da bi si pregriznil jezik, ust mu ne odpiramo na silo.\n\n
+Bolniku med napadom ne dajemo v usta nobene tekočine, dokler se mu ne povrne zavest.\n\n
+Bolnika med napadom ne držimo, krčev ne poskušamo fizično zaustaviti.\n\n
+Vedno počakamo na kraju samem, da bolnik pride k zavesti.\n\n
+Ponudimo mu pomoč ali po potrebi pokličemo strokovno medicinsko pomoč.</string>
+    <string name="podrobna_zgodovina">Podrobna zgodovina:</string>
+</resources>
